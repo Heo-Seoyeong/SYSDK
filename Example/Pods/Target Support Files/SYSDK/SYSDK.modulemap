@@ -1,0 +1,6 @@
+framework module SYSDK {
+  umbrella header "SYSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

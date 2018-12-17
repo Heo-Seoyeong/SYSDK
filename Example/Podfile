@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SYSDK_Tests' do
+  pod 'SYSDK', :path => '../'
+  
+  
+end
