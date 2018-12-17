@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
   #   github repo, podSpec 파일이름 그리고 해당 옵션값 까지 같은 이름으로 통일해야 합니다.
   s.version          = '0.1.0'
   #   등록할 라이브러리의 버전 입니다. 나중에 라이브러리를 업데이트하고 버전이 올라가면 이 옵션에 올라가는 버전을 넣고, github에도 해당 버전으로 tag를 생성 하면 됩니다.
-  s.summary          = 'A short description of SYSDK.'
-
+  s.summary          = 'Heo Seoyeong Library for Swift!!'
+  s.swift_version = '4.2'
   s.description      = <<-DESC
 Heo Seoyeong's Library for Swift!!
                        DESC
