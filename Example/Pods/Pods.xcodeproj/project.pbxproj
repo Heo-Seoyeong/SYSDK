@@ -12,7 +12,7 @@
 		3AB28D1C8250FC7EAF5203B8DAB67539 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		4221CEC08ABC6541C28469F34A0BAB6B /* Pods-SYSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF3FC1A1BD1502B6A06B6F36B54298F /* Pods-SYSDK_Tests-dummy.m */; };
 		7955A6B767999A102D2100EB91DE637B /* SYSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDDDCAB5CB4CD1C5DB31AF018D73111 /* SYSDK-dummy.m */; };
-		894A1B74223213860083B553 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894A1B73223213860083B553 /* ReplaceMe.swift */; };
+		894A1B7722321CA70083B553 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894A1B7622321CA70083B553 /* ReplaceMe.swift */; };
 		A921A8FFDF6E34A06BE0BE178FE5DD1E /* SYSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5767F1C0310701AA49E2E10F02E8985E /* SYSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -39,7 +39,7 @@
 		7BCFD8D2C619E67F1926EEB68A203C3A /* Pods_SYSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EB5D68FCD99019280580C5C963A3D12 /* SYSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYSDK-prefix.pch"; sourceTree = "<group>"; };
 		86CA18F2C827F711940ED06E9F2EC549 /* Pods-SYSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		894A1B73223213860083B553 /* ReplaceMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Source/ReplaceMe.swift; sourceTree = "<group>"; };
+		894A1B7622321CA70083B553 /* ReplaceMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9584FD4D21A0BB66BE105781CE574886 /* Pods-SYSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A9702EBCD31A9DF518F9DCF569B71EBC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -141,6 +141,14 @@
 			);
 			sourceTree = "<group>";
 		};
+		894A1B7822321CAA0083B553 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				894A1B7622321CA70083B553 /* ReplaceMe.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,7 +170,7 @@
 		D5570F1AC8D4AE45B3002EA3D0B4EA51 /* SYSDK */ = {
 			isa = PBXGroup;
 			children = (
-				894A1B73223213860083B553 /* ReplaceMe.swift */,
+				894A1B7822321CAA0083B553 /* Source */,
 				C2F7605381882EF9ADD02A058C66AFAB /* Pod */,
 				312C5786F7FAE6CAC7CB02843F67C9C8 /* Support Files */,
 			);
@@ -272,7 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				894A1B74223213860083B553 /* ReplaceMe.swift in Sources */,
+				894A1B7722321CA70083B553 /* ReplaceMe.swift in Sources */,
 				4221CEC08ABC6541C28469F34A0BAB6B /* Pods-SYSDK_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
