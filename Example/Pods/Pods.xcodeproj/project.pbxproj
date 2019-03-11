@@ -134,7 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				EE6A05C06262AB10ACA4945D18C3EBC8 /* Development Pods */,
+				D5570F1AC8D4AE45B3002EA3D0B4EA51 /* SYSDK */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				4BB38D3965D85D20E262844C1180CDFB /* Products */,
 				71CCCE2DEBA7FD116BC36B5FABCF72BD /* Targets Support Files */,
@@ -176,14 +176,6 @@
 			);
 			name = SYSDK;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		EE6A05C06262AB10ACA4945D18C3EBC8 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D5570F1AC8D4AE45B3002EA3D0B4EA51 /* SYSDK */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
